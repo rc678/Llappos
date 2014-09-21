@@ -2,3 +2,8 @@
 body{
     padding-bottom: 300px;
 }
+
+#values{
+    float:left;
+    padding-left:100px;
+}
