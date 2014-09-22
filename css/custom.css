@@ -1,9 +1,39 @@
 /*Customazations made to website and bootstrap*/
 body{
     padding-bottom: 300px;
+    background: #FFBE81;
 }
 
 #values{
     float:left;
     padding-left:100px;
+}
+
+.navbar-default{
+    background:#E8856A;
+    border-color: #FFBE81;
+}
+
+.navbar.navbar-inverse.navbar-fixed-bottom{
+    background: #E8856A;
+    border-color: #E8856A;
+}
+
+.navbar-default .navbar-brand{
+    color:#FFFFFF;
+}
+
+.navbar-inverse .navbar-text{
+    color: #FFFFFF
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #FFFFFF;
+    background-color: #b96a54;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:#FFFFFF;
 }
