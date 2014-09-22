@@ -16,16 +16,20 @@ body{
     background: #FFBE81;
 }
 
+/*About Page*/
 #about-llama{
     float: left;    
 }
 
 #about-info{
     float:left;
-    margin: 25px 0 0 100px;
+    margin: 0px 0 0 100px;
     text-align: justify;
     width: 400px;
 }
+
+/*Core Values Page*/ 
+
 
 /********************Footer (Bottom of page styling)*************/
 .navbar.navbar-inverse.navbar-fixed-bottom{
