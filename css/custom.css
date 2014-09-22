@@ -1,9 +1,6 @@
-/*Customazations made to website and bootstrap*/
-body{
-    padding-bottom: 300px;
-    background: #FFBE81;
-}
+/*Custom CSS made to website*/
 
+/********************Navigation Bar (Top of Page Styling)*********/
 #values{
     float:left;
     padding-left:100px;
@@ -13,7 +10,24 @@ body{
     background:#E8856A;
     border-color: #FFBE81;
 }
+/********************Middle of page styling***********************/
+body{
+    padding-bottom: 300px;
+    background: #FFBE81;
+}
 
+#about-llama{
+    float: left;    
+}
+
+#about-info{
+    float:left;
+    margin: 25px 0 0 100px;
+    text-align: justify;
+    width: 400px;
+}
+
+/********************Footer (Bottom of page styling)*************/
 .navbar.navbar-inverse.navbar-fixed-bottom{
     background: #E8856A;
     border-color: #E8856A;
