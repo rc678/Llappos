@@ -28,6 +28,25 @@ body{
     width: 400px;
 }
 
+/*Home Page*/
+#a{
+    width:100px;
+    height:100px;
+    position:relative;
+    top:10px;
+    left:900px;
+    z-index:2;
+}
+
+#b{
+    width:100px;
+    height:100px;
+    position:relative;
+    top:10px;
+    left:200px;
+    z-index:2;
+}
+
 /*Core Values Page*/ 
 
 
