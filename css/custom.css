@@ -18,15 +18,9 @@ body{
 }
 
 /*About Page*/
-#about-llama{
-    float: left;    
-}
-
-#about-info{
-    float:left;
-    margin: 0px 0 0 100px;
+#about-info .row{
+    padding-right: 50px;
     text-align: justify;
-    width: 400px;
 }
 
 /*Home Page*/
@@ -60,7 +54,6 @@ body{
 /*Core Values Page*/
 
 /*People Page*/
-
 #profile{
     padding: 35px 120px 0 0;
     font-size: 1.3em;
