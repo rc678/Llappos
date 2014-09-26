@@ -8,12 +8,14 @@
 
 .navbar-default{
     background:#E8856A;
-    border-color: #FFBE81;
+    border-color: #E8856A;
 }
+
 /********************Middle of page styling for all HTML files ***********************/
 /*all pages*/
+
 body{
-    padding-bottom: 300px;
+    padding-top:60px;
     background: #FFBE81;
 }
 
@@ -53,6 +55,9 @@ body{
 }
 
 /*Core Values Page*/
+#values-vid{
+    padding: 20px 0 0 100px;    
+}
 
 /*People Page*/
 #profile{
@@ -71,9 +76,11 @@ body{
 
 
 /********************Footer (Bottom of page styling)*************/
-.navbar.navbar-inverse.navbar-fixed-bottom{
+.navbar.navbar-inverse.navbar-static-bottom{
     background: #E8856A;
     border-color: #E8856A;
+    padding:0px;
+    margin:55px 0 0 0;
 }
 
 .navbar-default .navbar-brand{
