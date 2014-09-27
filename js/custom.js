@@ -23,13 +23,14 @@ function originalSize(){
 
 /*creates a dialog box when picture is clicked*/
 function createDialog(){
+    
     $( "#resizeLeft" ).click(function() {
-    $( '#dialog' ).dialog();
+    $( '#dialogLeft' ).dialog();
     });
     $( "#resizeMiddle" ).click(function() {
-    $( '#dialog' ).dialog();
+    $( '#dialogMiddle' ).dialog();
     });
     $( "#resizeRight" ).click(function() {
-    $( '#dialog' ).dialog();
+    $( '#dialogRight' ).dialog();
     });
 }

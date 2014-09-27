@@ -29,6 +29,10 @@ body{
     padding-left: 10px;
 }
 
+#about-image{
+    margin-bottom: 35px;
+}
+
 /*Home Page*/
 #resizeLeft{
     width:15%;
@@ -57,7 +61,7 @@ body{
     z-index:2;
 }
 
-#dialog{
+#dialogLeft,#dialogMiddle,#dialogRight{
     display:none;
 }
 /*Core Values Page*/
@@ -102,6 +106,10 @@ body{
 
 .navbar-inverse .navbar-text{
     color: #FFFFFF
+}
+
+.navbar-text.pull-left{
+    padding: 0 100px 0 100px;
 }
 
 .navbar-default .navbar-nav > .active > a,
