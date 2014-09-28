@@ -23,14 +23,20 @@ function originalSize(){
 
 /*creates a dialog box when picture is clicked*/
 function createDialog(){
-    
     $( "#resizeLeft" ).click(function() {
-    $( '#dialogLeft' ).dialog();
+        $('#dialogLeft' ).dialog();
+        $( "#dialogMiddle" ).dialog( "close" );
+        $( "#dialogRight" ).dialog( "close" );
     });
     $( "#resizeMiddle" ).click(function() {
-    $( '#dialogMiddle' ).dialog();
+        $('#dialogMiddle').dialog();
+        $( "#dialogLeft" ).dialog( "close" );
+        $( "#dialogRight" ).dialog( "close" );
     });
     $( "#resizeRight" ).click(function() {
-    $( '#dialogRight' ).dialog();
+        $( '#dialogRight' ).dialog();
+        $( "#dialogMiddle" ).dialog( "close" );
+        $( "#dialogLeft" ).dialog( "close" );
+
     });
 }

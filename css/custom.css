@@ -1,5 +1,5 @@
 /*Custom CSS made to website*/
-
+@import url(http://fonts.googleapis.com/css?family=Dosis:600|Signika|Luckiest+Guy);
 /********************Navigation Bar (Top of Page Styling)*********/
 #values{
     float:left;
@@ -19,18 +19,31 @@ body{
     background: #FFBE81;
 }
 
+p,li{
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5em;
+    color: black;
+}
+
 /*About Page*/
 #about-info .row{
     padding-right: 50px;
     text-align: justify;
     font-size: 1.1em;
+    margin-bottom: 10px;
 }
 .row{
     padding-left: 10px;
 }
 
 #about-image{
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 /*Home Page*/
@@ -65,39 +78,42 @@ body{
     display:none;
 }
 /*Core Values Page*/
-#values-vid{
-    padding: 20px 0 0 100px;    
+#value-vid{
+    margin:20px 0 50px 100px;
+    
 }
 
 /*People Page*/
 #profile{
-    padding: 90px 70px 0px 10px;
-    font-size: 1.3em;
+    padding: 70px 70px 70px 10px;
     text-align: justify;
 }
 
-.container img{
-    border-radius: 40px;
+#profile p{
+    font-size: 1.3em;    
 }
 
+
 #name{
-    padding-left: 110px;
+    padding-left: 100px;
 }
 
 
 /********************Footer (Bottom of page styling)*************/
+
+
 .navbar.navbar-inverse.navbar-static-bottom{
     background: #E8856A;
     border-color: #E8856A;
     padding:0px;
-    margin:55px 0 0 0;
+    margin:0px;
 }
 
 .navbar.navbar-inverse.navbar-fixed-bottom{
     background: #E8856A;
     border-color: #E8856A;
     padding:0px;
-    margin:55px 0 0 0;
+    margin:0px;
 }
 
 .navbar-default .navbar-brand{
@@ -109,7 +125,7 @@ body{
 }
 
 .navbar-text.pull-left{
-    padding: 0 100px 0 100px;
+    padding: 0 50px 0 50px;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -121,4 +137,8 @@ body{
 
 .navbar-default .navbar-nav > li > a{
     color:#FFFFFF;
+}
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.0em;
 }
