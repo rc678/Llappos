@@ -1,5 +1,37 @@
 /*Custom CSS made to website*/
 @import url(http://fonts.googleapis.com/css?family=Dosis:600|Signika|Luckiest+Guy);
+/********************Section for website responsiveness **********/
+@media (max-width: 500px) {
+    body{
+        background: red;
+    }
+    
+    .navbar.navbar-inverse.navbar-fixed-bottom{
+        visibility: hidden;
+    }
+    
+    #resizeLeft{
+        width:15%;
+        height:25%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #resizeMiddle{
+        width:15%;
+        height:25%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #resizeRight{
+        width:15%;
+        height:25%;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
 /********************Navigation Bar (Top of Page Styling)*********/
 #values{
     float:left;
@@ -11,11 +43,14 @@
     border-color: #E8856A;
 }
 
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.0em;
+}
+
 /********************Middle of page styling for all HTML files ***********************/
 /*all pages*/
-
 body{
-    padding-top:80px;
     background: #FFBE81;
 }
 
@@ -32,11 +67,18 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*About Page*/
+.container .row img{
+    margin: 20px;
+}
+#top-name{
+    padding: 50px 0 0 100px;
+}
+
 #about-info .row{
+    padding-bottom: 200px;
     padding-right: 50px;
     text-align: justify;
     font-size: 1.1em;
-    margin-bottom: 10px;
 }
 .row{
     padding-left: 10px;
@@ -48,29 +90,29 @@ h1,h2,h3,h4,h5,h6{
 
 /*Home Page*/
 #resizeLeft{
-    width:15%;
-    height:25%;
+    width:25%;
+    height:35%;
     position:absolute;
     top:100px;
-    left:900px;
+    left:760px;
     z-index:2;
 }
 
 #resizeMiddle{
-    width:15%;
-    height:25%;
+    width:25%;
+    height:35%;
     position:absolute;
     top:100px;
-    left:200px;
+    left:160px;
     z-index:2;
 }
 
 #resizeRight{
-    width:15%;
-    height:25%;
+    width:25%;
+    height:35%;
     position:absolute;
     top:100px;
-    left:500px;
+    left:460px;
     z-index:2;
 }
 
@@ -81,6 +123,10 @@ h1,h2,h3,h4,h5,h6{
 #value-vid{
     margin:20px 0 50px 100px;
     
+}
+
+#values{
+    padding-top: 50px;
 }
 
 /*People Page*/
@@ -100,8 +146,6 @@ h1,h2,h3,h4,h5,h6{
 
 
 /********************Footer (Bottom of page styling)*************/
-
-
 .navbar.navbar-inverse.navbar-static-bottom{
     background: #E8856A;
     border-color: #E8856A;
@@ -137,8 +181,4 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar-default .navbar-nav > li > a{
     color:#FFFFFF;
-}
-.navbar-brand{
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 2.0em;
 }
