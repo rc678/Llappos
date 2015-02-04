@@ -1,0 +1,184 @@
+/*Custom CSS made to website*/
+@import url(http://fonts.googleapis.com/css?family=Dosis:600|Signika|Luckiest+Guy);
+/********************Section for website responsiveness **********/
+@media (max-width: 500px) {
+    body{
+        background: red;
+    }
+    
+    .navbar.navbar-inverse.navbar-fixed-bottom{
+        visibility: hidden;
+    }
+    
+    #resizeLeft{
+        width:15%;
+        height:25%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #resizeMiddle{
+        width:15%;
+        height:25%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #resizeRight{
+        width:15%;
+        height:25%;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+/********************Navigation Bar (Top of Page Styling)*********/
+#values{
+    float:left;
+    padding-left:100px;
+}
+
+.navbar-default{
+    background:#E8856A;
+    border-color: #E8856A;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.0em;
+}
+
+/********************Middle of page styling for all HTML files ***********************/
+/*all pages*/
+body{
+    background: #FFBE81;
+}
+
+p,li{
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5em;
+    color: black;
+}
+
+/*About Page*/
+.container .row img{
+    margin: 20px;
+}
+#top-name{
+    padding: 50px 0 0 100px;
+}
+
+#about-info .row{
+    padding-bottom: 200px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+.row{
+    padding-left: 10px;
+}
+
+#about-image{
+    margin-bottom: 20px;
+}
+
+/*Home Page*/
+#resizeLeft{
+    width:25%;
+    height:35%;
+    position:absolute;
+    top:100px;
+    left:760px;
+    z-index:2;
+}
+
+#resizeMiddle{
+    width:25%;
+    height:35%;
+    position:absolute;
+    top:100px;
+    left:160px;
+    z-index:2;
+}
+
+#resizeRight{
+    width:25%;
+    height:35%;
+    position:absolute;
+    top:100px;
+    left:460px;
+    z-index:2;
+}
+
+#dialogLeft,#dialogMiddle,#dialogRight{
+    display:none;
+}
+/*Core Values Page*/
+#value-vid{
+    margin:20px 0 50px 100px;
+    
+}
+
+#values{
+    padding-top: 50px;
+}
+
+/*People Page*/
+#profile{
+    padding: 70px 70px 70px 10px;
+    text-align: justify;
+}
+
+#profile p{
+    font-size: 1.3em;    
+}
+
+
+#name{
+    padding-left: 100px;
+}
+
+
+/********************Footer (Bottom of page styling)*************/
+.navbar.navbar-inverse.navbar-static-bottom{
+    background: #E8856A;
+    border-color: #E8856A;
+    padding:0px;
+    margin:0px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-bottom{
+    background: #E8856A;
+    border-color: #E8856A;
+    padding:0px;
+    margin:0px;
+}
+
+.navbar-default .navbar-brand{
+    color:#FFFFFF;
+}
+
+.navbar-inverse .navbar-text{
+    color: #FFFFFF
+}
+
+.navbar-text.pull-left{
+    padding: 0 50px 0 50px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #FFFFFF;
+    background-color: #b96a54;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:#FFFFFF;
+}
